@@ -1,13 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
+import LogIn from './components/LogIn'
+import UserContextProvider from './context/UserContextProvider'
 
 function App() {
   
 
   return (
-    <>
-      <h1>mayur</h1>
-    </>
+    <UserContextProvider>
+     <LogIn/>
+    </UserContextProvider>
   )
 }
 
