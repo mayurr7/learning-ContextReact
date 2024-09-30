@@ -1,6 +1,7 @@
 
 import './App.css'
 import LogIn from './components/LogIn'
+import Profile from './components/Profile'
 import UserContextProvider from './context/UserContextProvider'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <UserContextProvider>
      <LogIn/>
+     <Profile/>
     </UserContextProvider>
   )
 }
